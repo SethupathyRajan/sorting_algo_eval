@@ -55,13 +55,13 @@ int main(){
     double cpu_time;double time_taken;
     for(int i = 0;i < 7;i++){
     switch(arr_size[i]){
-        case 100:array = readArray("array_100.txt",&size);break;
-        case 250:array = readArray("array_250.txt",&size);break;
-        case 500:array = readArray("array_500.txt",&size);break;
-        case 750:array = readArray("array_750.txt",&size);break;
-        case 1000:array = readArray("array_1000.txt",&size);break;
-        case 2000:array = readArray("array_2000.txt",&size);break;
-        case 4000:array = readArray("array_4000.txt",&size);break;
+        case 100:array = readArray("./tempArr/array_100.txt",&size);break;
+        case 250:array = readArray("./tempArr/array_250.txt",&size);break;
+        case 500:array = readArray("./tempArr/array_500.txt",&size);break;
+        case 750:array = readArray("./tempArr/array_750.txt",&size);break;
+        case 1000:array = readArray("./tempArr/array_1000.txt",&size);break;
+        case 2000:array = readArray("./tempArr/array_2000.txt",&size);break;
+        case 4000:array = readArray("./tempArr/array_4000.txt",&size);break;
     }
     for(choice = 1; choice < 7;choice++){
     switch(choice){

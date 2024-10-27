@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import pandas as pd
 
-df= pd.read_csv("e:/programs/sorting_algorithm_eval/all_algos_eval.csv")
+df= pd.read_csv("all_algos_eval.csv")
 
 for al in df['ALGORITHM'].unique():
     specific_algo = df[df['ALGORITHM'] == al]
